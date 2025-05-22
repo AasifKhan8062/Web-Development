@@ -1,0 +1,30 @@
+
+h1{
+    text-align: center;
+}
+.bodyofform1{
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.forminfo{
+    display: grid;
+    width: 290;
+    grid-template-columns: 300px 300px;
+}
+label,input{
+    padding: 5px;
+    margin: 5px;
+}
+.name{
+    display: flex;
+}
+#fullName{
+    width: 200px;
+    margin: 10px;
+}
+.img{
+    padding: 10px;
+    margin: 40px 30px 30px 30px;
+}

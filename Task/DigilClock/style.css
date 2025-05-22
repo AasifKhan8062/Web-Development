@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.clockOuterBoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 2vw;
+  /* height: 90vh; */
+  /* width: 45vw; */
+  margin: 1vw;
+  padding: 1vw;
+  background-color: #000000;
+}
+.clockInnerBoader {
+  border: 1vw solid rgb(211, 211, 211);
+  border-radius: 2vw;
+  /* height: 50vh; */
+  width: 33vw;
+  margin: 1vw;
+  padding: 1vw;
+}
+.container {
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 2vw;
+  /* height: 45vh; */
+  width: 29vw;
+  margin: 1vw;
+  padding: 1vw;
+}
+.hourMinuteSecond,
+.dateMonthYear {
+  margin: 1vw;
+  padding: 1vw;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2vw;
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 8vw 8vw 8vw;
+}
+.element {
+  padding: 1vw;
+}
+.day {
+  margin: 1vw;
+  padding: 0.5vw;
+  border: 1px solid whitesmoke;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.round {
+  border: 1px solid whitesmoke;
+  height: 2vh;
+  width: 2vw;
+  border-radius: 20vw;
+  margin: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redDot {
+  --main-color: rgb(181, 181, 181);
+  background-color: var(--main-color);
+  height: 1.5vh;
+  width: 1.5vw;
+  border-radius: 50vw;
+}
+#date,
+#month,
+#year,
+#hour,
+#minute,
+#temp,
+#seconds {
+  color: red;
+  font-size: 3.5vw;
+  font-weight: 600;
+}
+
+.footorContainer {
+  color: white;
+  display: grid;
+  grid-template-columns: 5vw 15vw 8vw;
+}
+.temperature {
+  display: flex;
+  justify-content: center;
+}
+.tempContainer {
+  text-align: center;
+  height: 8vh;
+  width: 7vw;
+  background-color: aliceblue;
+  border-radius: 1vw;
+  padding: 0.5;
+  margin: 1vh;
+}
+
+.noon {
+  display: flex;
+  justify-content: flex-end;
+}

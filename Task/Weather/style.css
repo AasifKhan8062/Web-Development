@@ -1,0 +1,57 @@
+* {
+  padding: 0vw;
+  margin: 0vw;
+}
+body {
+  background-color: aqua;
+}
+.mainContainer {
+  height: 50vh;
+  padding: 1vw;
+  margin: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: rgb(44, 43, 43);
+}
+.container {
+  background-color: rgb(92, 216, 228);
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 2vw;
+  box-shadow: 5px 5px 8px rgb(92, 216, 228), 10px 10px 8px rgb(101, 207, 253),15px 15px 8px rgb(186, 253, 255);
+}
+#city {
+  color: rgb(161, 161, 161);
+  border-radius: 10vw;
+  padding: 1vw;
+  margin: 1vw;
+  margin-right: 0px;
+  height: 3vh;
+  width: 20vw;
+  font-size: medium;
+  text-align: center;
+  background-color: rgb(180, 255, 255);
+}
+#search {
+  color: rgb(51, 52, 52);
+  border-radius: 20vw;
+  padding: 1vw;
+  margin: 1vw;
+  margin-left: 0px;
+  height: 8vh;
+  width: 8vw;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  padding: 1vw;
+  margin: 1vw;
+}
+.tempC {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 800;
+}

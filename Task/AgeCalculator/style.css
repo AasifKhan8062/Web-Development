@@ -1,0 +1,22 @@
+main{
+    text-align: center;
+    padding: 2vw;
+}
+.mainDiv{
+    background-color: rgb(158, 195, 227);
+    margin: 1vw;
+    padding: 2vw;
+}
+input{
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 5vw;
+    height: 2vw;
+    width: 20vw;
+}
+button{
+    height: 5vw;
+    width: 20vw;
+    background-color: rgb(41, 169, 228);
+    border-radius: 5vw;
+}

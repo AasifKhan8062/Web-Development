@@ -1,0 +1,21 @@
+table{
+  height: 20vh;
+  width: 70vh;
+  text-align: center;
+}
+.heading1{
+  background-color: rgb(162, 162, 245);
+}
+.heading2{
+  background-color: rgb(240, 229, 22);
+}
+.subheading2{
+  background-color: rgb(240, 158, 219);
+  width:6vw;
+}
+.even{
+  background-color: rgb(122, 169, 193);
+}
+.odd{
+  background-color: rgb(193, 193, 194);
+}

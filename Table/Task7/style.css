@@ -1,0 +1,46 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.billbody{
+  border: 5px solid black;
+  margin: 5vw;
+  padding: 2vw;
+}
+.heading{
+  color: white;
+  background-color:rgb(14, 14, 234);
+  text-align: center;
+  padding:1.5vw;
+  margin: 1vw;
+}
+.size{
+  height: 5vw;
+}
+.nameDetail{
+  display: flex;
+  justify-content:space-between;
+  padding:2vw;
+  margin: 1vw;
+}
+.font{
+  font-size: 25px;
+}
+.table{
+  margin: 1vw;
+  font-size: 25px;
+  padding:1vw;
+  margin: 0.5vw;
+  border: none;
+}
+.tableheading{
+  background-color: blue;
+  color: white;
+  height: 2vw;
+  padding: 1vw;
+}
+.tablesection{
+  height: 50vh;
+  width: 60vw;
+
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Digil Clock</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="clockOuterBoader">
+      <div class="clockInnerBoader">
+        <div class="container">
+          <div class="dateMonthYear">
+            <span class="element">DATE</span>
+            <span class="element">MONTH</span>
+            <span class="element">YEAR</span>
+            <span class="element" id="date">D</span>
+            <span class="element" id="month">M</span>
+            <span class="element" id="year">Y</span>
+          </div>
+          <div class="hourMinuteSecond">
+            <span class="element">HOUR</span>
+            <span class="element">MINUTE</span>
+            <span class="element">SECOND</span>
+            <span class="element" id="hour">H</span>
+            <span class="element" id="minute">M</span>
+            <span class="element" id="seconds">S</span>
+          </div>
+          <div class="day">
+            <div>
+              <div class="round">
+                <div class="redDot" id="sun"></div>
+              </div>
+              <p>SUN</p>
+            </div>
+            <div>
+              <div class="round">
+                <div class="redDot" id="mon"></div>
+              </div>
+              <p>MON</p>
+            </div>
+            <div>
+              <div class="round">
+                <div class="redDot" id="tue"></div>
+              </div>
+              <p>TUE</p>
+            </div>
+            <div>
+              <div class="round">
+                <div class="redDot" id="wed"></div>
+              </div>
+              <p>WED</p>
+            </div>
+            <div>
+              <div class="round">
+                <div class="redDot" id="thu"></div>
+              </div>
+              <p>THE</p>
+            </div>
+            <div>
+              <div class="round">
+                <div class="redDot" id="fri"></div>
+              </div>
+              <p>FRI</p>
+            </div>
+            <div>
+              <div class="round">
+                <div class="redDot" id="sat"></div>
+              </div>
+              <p>SAT</p>
+            </div>
+          </div>
+          <div class="footorContainer">
+            <div></div>
+            <div class="temperature">
+              <p>Temp.</p>
+              <div class="tempContainer" id="temp">29</div>
+              <p><sup>.</sup> C</p>
+            </div>
+            <div class="noon">
+              <div>
+                <div class="round">
+                  <div class="redDot" id="am"></div>
+                </div>
+                <p>AM</p>
+              </div>
+              <div>
+                <div class="round">
+                  <div class="redDot" id="pm"></div>
+                </div>
+                <p>PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

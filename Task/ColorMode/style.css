@@ -1,0 +1,43 @@
+.mode {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5vw;
+  padding: 1vw;
+  margin: 1vw;
+}
+.name {
+  border-radius: 5vw;
+  background-color: transparent;
+}
+button {
+  border-radius: 10vw;
+  font-size: medium;
+  font-weight: 500;
+  padding: 1vw;
+  margin: 1vw;
+  color: rgb(186, 186, 186);
+}
+.primaryMode {
+  background-color: Blue;
+}
+.secondaryMode {
+  background-color: Gray;
+}
+.successMode {
+  background-color: Green;
+}
+.dangerMode {
+  background-color: Red;
+}
+.warningMode {
+  background-color: Orange;
+}
+.infoMode {
+  background-color: Cyan;
+}
+.lightMode {
+  background-color: white;
+}
+.darkMode {
+  background-color: black;
+}

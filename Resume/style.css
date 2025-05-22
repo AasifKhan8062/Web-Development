@@ -1,0 +1,157 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.mainBody{
+  padding: 2vw;
+  display: flex;
+  width: 80vw;
+}
+.sideBar{
+  background-color: #2C3E50;
+  max-width: 20vw;
+}
+.sideBar{
+  padding: 1vw;
+}
+.basicInfo{
+  text-align: center;
+  padding: 1vw;
+  margin: 1vw;
+  border-bottom:1px solid black;
+}
+.basicInfo >:nth-child(2){
+  color: rgb(200, 200, 200);
+  padding: 1vw;
+}
+.basicInfo >:last-child{
+  color: rgb(239, 241, 104);
+  padding: 1vw;
+}
+img{
+  border: 1x solid rgb(219, 129, 129);
+  border-radius: 100vw;
+  padding: 1vw;
+}
+.basicInfo>p{
+  font-size:20px;
+  font-weight: 700;
+}
+.contect >:first-child{
+  color: rgb(200, 200, 200);
+  font-size: 20px;
+  padding: 1vw;
+  margin: 1vw;
+  font-weight: 700;
+}
+.contect > :nth-child(n+2){
+  padding: 1vw;
+  margin-left: 1vw;
+  color:#8b9ab0
+}
+.skill >:first-child{
+  color: rgb(200, 200, 200);
+  font-size: 20px;
+  padding: 1vw;
+  margin: 1vw;
+  font-weight: 700;
+}
+.skill > :nth-child(n+2){
+  padding: 1vw;
+  margin-left: 1vw;
+  color:#8b9ab0
+}
+.references{
+  margin: 1vw;
+  padding: 0.5vw;
+}
+.references>p{
+  color: rgb(200, 200, 200);
+  font-size: 20px;
+  margin: 1vw;
+  font-weight: 700;
+}
+.references>div>:first-child{
+  margin: 1vw;
+  font-size: 20px;
+  color:#93a645
+}
+.references>div>:nth-child(n+2){
+  margin: 1vw;
+  color:#b3b5ac
+}
+.mainContain{
+  background-color: #ced4da;
+  padding: 2vw;
+  max-width:60vw;
+}
+.mainContain>div>p {
+  text-align: justify;
+  text-justify: auto;
+}
+.mainContain>div>:first-child{
+  font-size: 20px;
+  color: #2C3E50;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+}
+.experience>p{
+  font-size: 20px;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+}
+.experience>div{
+  display: grid;
+  grid-template-columns: 20vw 30vw;
+}
+.experience>div>div>:first-child{
+  font-size: 15px;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+  color: #1376bc
+}
+.education>p{
+  font-size: 20px;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+}
+.education>div{
+  display: grid;
+  grid-template-columns: 20vw 30vw;
+}
+.education>div>div>:first-child{
+  font-size: 15px;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+  color: #1376bc
+}
+.awardsAnsCertificaters>p{
+  font-size: 20px;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+}
+.awardsAnsCertificaters>div{
+  display: grid;
+  grid-template-columns: 20vw 30vw;
+}
+.awardsAnsCertificaters>div>div>:first-child{
+  font-size: 15px;
+  margin-top:2vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+  color: #1376bc
+}
+.education,.awardsAnsCertificaters,.experience,.aboutMe{
+  padding: 2vw;
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 4</title>
+    <style>
+      table {
+        height: 50vh;
+        width: 80vw;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <table border="1">
+        <tr>
+          <th colspan="4">Registration Form</th>
+        </tr>
+        <tr>
+          <td><label for="firstName">Student Name:</label></td>
+          <td>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Enter First Name"
+            />
+          </td>
+          <td>
+            <input
+              type="text"
+              id="middleName"
+              placeholder="Enter Middle Name"
+            />
+          </td>
+          <td>
+            <input type="text" id="lastName" placeholder="Enter Last Name" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="fatherName">Father's Name:</label></td>
+          <td>
+            <input
+              type="text"
+              id="fatherName"
+              name="fatherName"
+              placeholder="Enter Your Father Name"
+            />
+          </td>
+          <td><label for="motherName">Mother's Name:</label></td>
+          <td>
+            <input
+              type="text"
+              id="motherName"
+              name="motherName"
+              placeholder="Enter Your Mother Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="dateOfBirth">Date Of Birth</label></td>
+          <td><input type="date" name="dateOfBirth" id="dateOfBirth" /></td>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <span>Male</span>
+            <input type="radio" name="gender" id="male" />
+            <span>Female</span>
+            <input type="radio" name="gender" id="female" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="category">Category</label></td>
+          <td>
+            <span>Gen</span>
+            <input type="radio" name="category" id="gen" />
+            <span>OBC</span>
+            <input type="radio" name="category" id="obc" />
+            <span>SC</span>
+            <input type="radio" name="category" id="sc" />
+            <span>ST</span>
+            <input type="radio" name="category" id="st" />
+          </td>
+          <td><label for="handicapped">Handicapped</label></td>
+          <td>
+            <span>Yes</span>
+            <input type="radio" name="handicapped" id="handicappedYes" />
+            <span>No</span>
+            <input type="radio" name="handicapped" id="handicappedNo" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="exServicemen">Ex-Servicemen</label></td>
+          <td>
+            <span>Yes</span>
+            <input type="radio" name="exServicemen" id="exServicemenYes" />
+            <span>No</span>
+            <input type="radio" name="exServicemen" id="exServicemenNo" />
+          </td>
+          <td><label for="ews">EWS</label></td>
+          <td>
+            <span>Yes</span>
+            <input type="radio" name="ews" id="ewsYes" />
+            <span>No</span>
+            <input type="radio" name="ews" id="ewsNo" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="emailId">Email ID</label></td>
+          <td><input type="email" name="email" id="email" /></td>
+          <td><label for="mobileNo">Mobile No</label></td>
+          <td><input type="tel" name="mobileNo" id="mobileNo" /></td>
+        </tr>
+        <tr>
+          <td><label for="state">State</label></td>
+          <td>
+            <select name="state" id="state">
+              <option value="Andhra Pradesh">Andhra Pradesh</option>
+              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Himachal Pradesh">Himachal Pradesh</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="Tamil Nadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="West Bengal">West Bengal</option>
+              <option value="Andaman and Nicobar Islands">
+                Andaman and Nicobar Islands
+              </option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Dadra and Nagar Haveli and Daman and Diu">
+                Dadra and Nagar Haveli and Daman and Diu
+              </option>
+              <option value="Delhi">Delhi</option>
+              <option value="Jammuand Kashmir">Jammu and Kashmir</option>
+              <option value="Ladakh">Ladakh</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="Puducherry">Puducherry</option>
+            </select>
+          </td>
+          <td><label for="city">City</label></td>
+          <td>
+            <select name="city" id="city">
+              <option value="Amaravati">Amaravati</option>
+              <option value="Itanagar">Itanagar</option>
+              <option value="Dispur">Dispur</option>
+              <option value="Patna">Patna</option>
+              <option value="Raipur">Raipur</option>
+              <option value="Panaji">Panaji</option>
+              <option value="Gandhinagar">Gandhinagar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Shimla">Shimla</option>
+              <option value="Ranchi">Ranchi</option>
+              <option value="Bengaluru">Bengaluru</option>
+              <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+              <option value="Bhopal">Bhopal</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Imphal">Imphal</option>
+              <option value="Shillong">Shillong</option>
+              <option value="Aizawl">Aizawl</option>
+              <option value="Kohima">Kohima</option>
+              <option value="Bhubaneswar">Bhubaneswar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Jaipur">Jaipur</option>
+              <option value="Gangtok">Gangtok</option>
+              <option value="Chennai">Chennai</option>
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Agartala">Agartala</option>
+              <option value="Lucknow">Lucknow</option>
+              <option value="Dehradun">Dehradun</option>
+              <option value="Kolkata">Kolkata</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="uploadPhoto">Upload Photo</label></td>
+          <td><input type="file" name="uploadPhoto" id="uploadPhoto" /></td>
+          <td><label for="uploadSignsture">Upload Signsture</label></td>
+          <td>
+            <input type="file" name="uploadSignsture" id="uploadSignsture" />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="3">
+            <button id="submit"><b>Submit</b></button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

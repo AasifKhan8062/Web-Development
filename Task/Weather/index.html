@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="container">
+        <div>
+          <input type="text" id="city" placeholder="Enter the city name" />
+          <button id="search" onclick="search()">Search</button>
+        </div>
+        <ul>
+          <li><strong>Name: </strong> <span id="name"></span></li>
+          <li><strong>Region: </strong> <span id="region"></span></li>
+          <li><strong>Country: </strong> <span id="country"></span></li>
+          <li><strong>Timezone: </strong> <span id="tz_id"></span></li>
+          <li><strong>Local Time: </strong> <span id="localtime"></span></li>
+        </ul>
+        <div class="tempC">
+          <strong>Temperature: </strong> <span id="temp"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

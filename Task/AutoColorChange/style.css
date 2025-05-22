@@ -1,0 +1,25 @@
+div {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: large;
+  border-radius: 10vw;
+  font-weight: 600;
+  height: 4vw;
+  width: 10vw;
+  padding: 1vw;
+  margin: 1vw;
+  background-color: rgb(234, 245, 255);
+}
+button:hover {
+  font-size: large;
+  border-radius: 10vw;
+  font-weight: 600;
+  height: 4vw;
+  width: 10vw;
+  padding: 1vw;
+  margin: 1vw;
+  background-color: rgb(186, 186, 186);
+}

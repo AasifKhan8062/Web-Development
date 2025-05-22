@@ -1,0 +1,18 @@
+.bodyform{
+    height: 98vh;
+    width: 98vw;
+}
+.heading{
+    text-align: center;
+}
+.PersonalDetails,.identification,.contactNumber{
+    display: grid;
+    grid-template-columns: 20vw 25vw 25vw 20vw;
+}
+.qualificationTable{
+    height: 30vh;
+}
+.languageTable{
+    height: 10vh;
+    width: 90vw;
+}
